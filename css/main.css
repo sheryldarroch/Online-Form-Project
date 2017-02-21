@@ -81,9 +81,11 @@ textarea {
   margin: 0 0 20px 0;
   padding: 15px;
   font-size: 1em;
-  height: auto;
-  transition: height 2s;
-  transition: background 2s ease-in-out 0s;
+  height: 3em;
+}
+
+textarea {
+  height: 6em;
 }
 
 select {
@@ -91,7 +93,7 @@ select {
 }
 
 #zip {
-  width: 20%;
+  width: 30%;
 }
 
 input[type="text"]:focus,
@@ -100,8 +102,8 @@ input[type="tel"]:focus,
 select:focus,
 textarea:focus {
   border-bottom: solid 2px #000099;
-  height: 2em;
   background: #eee;
+  transition: background 2s ease-in-out 0s;
 } 
 
 ::-webkit-input-placeholder {
